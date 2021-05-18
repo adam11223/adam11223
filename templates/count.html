@@ -1,0 +1,15 @@
+<h1>COUNT</h1>
+<br>
+<h2>Your total word count is {{count}} words</h2>
+<br>
+<h3>Your text was:</h3>
+<br>
+<h5>{{fulltext}}</h5>
+
+<h1>word repeat</h1>
+{% for word, counttotal in worddictionary %}
+{{word}}
+<br>
+{{counttotal}}
+<br>
+{% end for %}
